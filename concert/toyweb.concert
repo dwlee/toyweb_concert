@@ -1,0 +1,9 @@
+<concert>
+    <launch title="concert:11311" package="toyweb_concert" name="concert.launch" port="11311">
+      <arg name="services" value="toyweb_concert/toyweb.services"/>
+    </launch>
+
+    <launch title="robosem_bridge:11316" package="toyweb_concert" name="demo_backend.launch" port="11316">
+      <arg name="concert_client_name" value="robosem_bridge"/>
+    </launch>
+</concert>

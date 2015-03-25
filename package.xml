@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>toyweb_concert</name>
+  <version>0.0.0</version>
+  <description>
+    Toy web concert
+  </description>
+
+  <maintainer email="dwlee@yujinrobot.com">Dong wook Lee</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>concert_master</run_depend>
+  <run_depend>rocon_authoring</run_depend>
+  <run_depend>concert_service_admin</run_depend>
+  
+  <export>
+    <concert_service>services/training_contents/training_contents.service</concert_service>
+  </export>
+</package>

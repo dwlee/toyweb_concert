@@ -1,0 +1,4 @@
+- resource_name: concert_service_admin/admin
+- resource_name: toyweb_concert/training_contents
+  overrides:
+    priority: 99
