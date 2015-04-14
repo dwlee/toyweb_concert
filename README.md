@@ -38,5 +38,10 @@
       * /my_application (http://192.168.10.124:54465/)
     ```
 ## Troubleshooting
+* ```could not find the avahi-daemon - is it running?``` 메세지가 출력된 경우 
+  * 다음과 같은 명령어를 통해 avahi-daemon을재 실행한다. 
+  ```
+    > sudo service avahi-daemon restart
+  ```
 * 아이로비가 연결되지 않는경우 
   * 아이로비 ip 확인한 후, composer에서 설정을 변경한다. 
