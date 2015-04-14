@@ -21,6 +21,12 @@
   > rocon_launch toyweb_concert toyweb.concert --screen
 ```
 * 안드로이드 app과 연동 확인 방법
+  * Toyweb concert 환경 설정
+  
+    ```
+    > cd <your rocon workspace>
+    > . .bashrc
+    ```
   * 안드로이드 app 에서 concert ip 입력후, concert와 연결한다. 
   * 다음 명령어를 통해 ```/send_action``` 토픽으로 concert와 안드로이드 기기가 연결됨을 확인한다. 
 
@@ -38,6 +44,7 @@
       * /my_application (http://192.168.10.124:54465/)
     ```
 ## Troubleshooting
+
 * ```could not find the avahi-daemon - is it running?``` 메세지가 출력된 경우 
   * 다음과 같은 명령어를 통해 avahi-daemon을재 실행한다. 
   ```
