@@ -1,0 +1,3 @@
+workflows:
+  - workflow: toyweb_concert/training_contents_wf.json
+    order: 1

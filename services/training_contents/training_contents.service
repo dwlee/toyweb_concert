@@ -8,3 +8,4 @@ author: YujinRobot
 priority: 2
 launcher_type: roslaunch
 launcher: toyweb_concert/training_contents
+parameters: toyweb_concert/training_contents

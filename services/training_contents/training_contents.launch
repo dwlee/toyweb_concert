@@ -1,2 +1,4 @@
 <launch>
+  <node pkg="concert_workflow_handler_blockly" name="workflow_handler_blockly" type="workflow_handler.py">
+  </node>
 </launch>
