@@ -1,0 +1,4 @@
+- git: {local-name: robosem_bridge, uri: 'https://github.com/dwlee/toyweb_concert.git',
+    version: master}
+- git: {local-name: robosem_bridge, uri: 'https://github.com/yujinrobot/robosem_bridge.git',
+    version: irobi}
