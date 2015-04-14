@@ -23,6 +23,7 @@
 * 안드로이드 app과 연동 확인 방법
   * 안드로이드 app 에서 concert ip 입력후, concert와 연결한다. 
   * 다음 명령어를 통해 ```/send_action``` 토픽으로 concert와 안드로이드 기기가 연결됨을 확인한다. 
+
     ```
     > rostopic info /send_action
     ```
