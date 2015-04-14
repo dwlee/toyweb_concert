@@ -20,7 +20,22 @@
 ```
   > rocon_launch toyweb_concert toyweb.concert --screen
 ```
+* 안드로이드 app과 연동 확인 방법
+  * 안드로이드 app 에서 concert ip 입력후, concert와 연결한다. 
+  * 다음 명령어를 통해 ```/send_action``` 토픽으로 concert와 안드로이드 기기가 연결됨을 확인한다. 
+    ```
+    > rostopic info /send_action
+    ```
+  * 다음과 같은 메세지를 확인하면 연결이 성공한 것이다. 
+    ```
+    Type: std_msgs/String
 
+    Publishers: None
+
+    Subscribers: 
+      * /software/workflow_engine_blockly/rosbridge_websocket (http://192.168.10.24:45430/)
+      * /my_application (http://192.168.10.124:54465/)
+    ```
 ## Troubleshooting
 * 아이로비가 연결되지 않는경우 
   * 아이로비 ip 확인한 후, composer에서 설정을 변경한다. 
